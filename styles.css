@@ -1,0 +1,40 @@
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin: 0;
+    font-size: 1.5em;
+    color: white;
+}
+.introduction{
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center;
+   text-align: center;
+}
+
+
+
+ul{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+}
+
+ul >li{
+    list-style-type: none;
+    padding: 1em;
+    margin: .5em;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+li > a{
+    text-decoration: none;
+    color: white;
+   }
+
+li:hover{
+    background-color: purple;
+}
